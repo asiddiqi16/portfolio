@@ -9,6 +9,8 @@
 }
 body {
   background: var(--brand-font-color);
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
@@ -19,7 +21,7 @@ h2 {
   background: var(--brand-bg-color);
   color: var(--brand-font-color);
   text-align: center;
-  padding: 100px;
+  padding: 80px 20px 80px 20px;
   border-radius: 1px;
   margin-bottom: 50px;
 }
@@ -30,15 +32,15 @@ h2 {
   font-style: normal;
 }
 
-.navigation-link {
+.nav-link {
   color: var(--brand-bg-color);
   background: var(--brand-font-color);
-  border-radius: 10px;
   font-weight: 800;
+  border-radius: 10px;
+  width: 150px;
+  margin: 0;
 }
-.navigation-link:hover {
+.nav-link:hover {
   color: var(--brand-bg-color);
   box-shadow: inset 0px 0px 5px 1px var(--brand-bg-color);
-}
-.links {
 }
