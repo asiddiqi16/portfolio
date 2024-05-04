@@ -33,7 +33,13 @@
     <div class="hero">
       <h3>Hi ! 👋</h3>
       <h1 class="montserrat-normal mt-3">
-        My name is <strong>Ariba </strong><i class="fa-brands fa-linkedin"></i>
+        My name is <strong>Ariba </strong
+        ><a
+          href="https://www.linkedin.com/in/aribasiddiqi/"
+          class="icon-link"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
       </h1>
       <h2 class="biopic d-flex justify-content-center my-5">
         I am an aspiring software engineer based in beautiful Melbourne,
@@ -43,24 +49,68 @@
         <div class="d-grid gap-2 d-mb-block row justify-content-center">
           <div class="col-xs-6">
             <button class="btn">
-              <a href="/" class="nav-link">About Me :)</a>
-            </button>
-
-            <button class="btn">
-              <a href="/" class="nav-link">Contact Me</a>
-            </button>
-          </div>
-          <div class="col-xs-6">
-            <button class="btn">
-              <a href="/" class="nav-link">Work</a>
+              <a href="/about.html" class="nav-link montserrat-normal"
+                >About Me 🥰</a
+              >
             </button>
             <button class="btn">
-              <a href="/" class="nav-link">Musings</a>
+              <a href="/contact.html" class="nav-link montserrat-normal"
+                >Contact Me 🥳</a
+              >
             </button>
           </div>
         </div>
       </div>
     </div>
+    <h3 class="montserrat-normal text-uppercase text-center mb-5">
+      <strong>My Portfolio </strong>
+    </h3>
+    <div class="container portfolio mx-auto">
+      <div
+        class="d-grid gap-2 d-mb-block row justify-content-center montserrat-normal"
+      >
+        <div class="col-mb-3 p-2 mb-2 card">
+          <a
+            href="https://www.shecodes.io/cohorts/1467/projects/1903339"
+            target="_blank"
+            ><img src="/images/judo.png" class="work-img"
+          /></a>
+          <p class="card-title">History of Judo</p>
+          <p class="card-content">
+            A landing page describing the history of Judo.
+          </p>
+        </div>
+        <div class="col-mb-3 p-2 mb-2 card">
+          <a
+            href="https://www.shecodes.io/cohorts/1592/projects/2098229"
+            target="_blank"
+            ><img src="/images/weatherapp_vanilla_js.png" class="work-img"
+          /></a>
+          <p class="card-title">Weather Application</p>
+          <p class="card-content">
+            Weather application showing live data from SheCodes Weather API.
+          </p>
+        </div>
+        <div class="col-mb-3 p-2 mb-2 card">
+          <a
+            href="https://www.shecodes.io/cohorts/1736/projects/2191377"
+            target="_blank"
+            ><img src="/images/weatherapp.png" class="work-img"
+          /></a>
+          <p class="card-title">React based Weather App</p>
+          <p class="card-content">
+            Weather application showing live data from SheCodes Weather API,
+            built with React.js
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer
+      class="border-top border-dark p-3 montserrat-normal mt-5 text-center"
+    >
+      <span class="p-2"> © 2024 Ariba Siddiqi</span>
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
