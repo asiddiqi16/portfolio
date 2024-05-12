@@ -155,3 +155,44 @@ footer {
 .contact-link {
   color: var(--brand-font-color);
 }
+
+.work-page {
+  background: var(--brand-bg-color);
+  color: var(--brand-font-color);
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 1px;
+  margin-bottom: 25px;
+}
+
+.page-title {
+  color: var(--brand-bg-color);
+  font-weight: 800;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.page-content {
+  font-weight: 500;
+
+  margin-top: 10px;
+}
+
+.launch-link {
+  background: var(--brand-bg-color);
+  color: var(--brand-font-color);
+  font-weight: 800;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.launch-link:hover {
+  color: var(--brand-font-color);
+  text-decoration: none;
+}
+.launch-btn {
+  display: flex;
+  justify-content: center;
+}
