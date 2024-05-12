@@ -66,28 +66,23 @@ footer {
 
 .work-img {
   display: block;
-  max-width: 300px;
-  max-height: 3250px;
-  width: auto;
-  height: auto;
   border-radius: 5px;
-  margin: 0 auto;
+  margin: 10px auto;
+  margin-top: 10px;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .card {
   background: var(--brand-bg-color);
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  width: 350px;
-  height: 500px;
+  margin: 10px auto;
   border-radius: 10px;
 }
 .card-title {
   color: var(--brand-font-color);
   font-weight: 800;
-  margin-top: 5px;
   text-align: center;
+  margin-top: 10px;
 }
 .card-content {
   color: var(--brand-font-color);
