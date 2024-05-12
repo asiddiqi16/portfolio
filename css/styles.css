@@ -196,3 +196,9 @@ footer {
   display: flex;
   justify-content: center;
 }
+.portfolio-link {
+  color: var(--brand-bg-color);
+}
+.portfolio-link:hover {
+  color: var(--brand-bg-color);
+}
