@@ -96,9 +96,10 @@ footer {
 
 .card {
   background: var(--brand-bg-color);
-  margin: 10px auto;
+  margin: 10px 5px;
   border-radius: 10px;
 }
+
 .card-title {
   color: var(--brand-font-color);
   font-weight: 800;
