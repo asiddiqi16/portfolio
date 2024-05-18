@@ -202,3 +202,17 @@ footer {
 .portfolio-link:hover {
   color: var(--brand-bg-color);
 }
+
+.contact-page {
+  background: var(--brand-bg-color);
+  color: var(--brand-font-color);
+  border-radius: 1px;
+  padding: 80px 20px 80px 20px;
+  max-width: 900px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.contact-details {
+  font-size: 24px;
+}
