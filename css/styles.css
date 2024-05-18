@@ -59,18 +59,22 @@ footer {
   font-style: normal;
 }
 
-.nav-link {
+.button-link {
   color: var(--brand-bg-color);
   background: var(--brand-font-color);
+
   font-weight: 800;
   border-radius: 10px;
   width: 200px;
-  margin: 0;
+  padding: 10px 15px;
+  margin: 50px;
   text-transform: uppercase;
+  text-decoration: none;
 }
-.nav-link:hover {
+.button-link:hover {
   color: var(--brand-font-color);
   background: var(--brand-bg-color);
+  text-decoration: none;
 }
 
 .icon-link {
@@ -115,6 +119,10 @@ footer {
   margin: 100px;
 }
 
+.work-link {
+  text-decoration: none;
+}
+
 .work-link:hover {
   text-decoration: none;
 }
@@ -125,7 +133,7 @@ footer {
   padding: 50px 20px 80px 20px;
   max-width: 100%;
   margin: 0 auto;
-
+  margin-top: 50px;
   box-shadow: 10px 10px 50px rgba(22, 22, 22, 0.5);
   display: flex;
   justify-content: center;
@@ -163,6 +171,7 @@ footer {
   padding: 20px 10px;
   border-radius: 1px;
   margin-bottom: 25px;
+  margin-top: 50px;
 }
 
 .page-title {
@@ -215,4 +224,37 @@ footer {
 
 .contact-details {
   font-size: 24px;
+}
+
+.navbar {
+  background: var(--brand-bg-color) !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand {
+  color: var(--brand-font-color) !important;
+  line-height: 2;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-right: 50px !important;
+}
+.navbar-brand:hover {
+  color: var(--brand-font-color) !important;
+}
+
+.nav-link {
+  color: var(--brand-font-color) !important;
+  padding-right: 50px !important;
+}
+
+.nav-link:hover {
+  color: var(--brand-font-color) !important;
+  text-decoration: underline;
+}
+
+.navbar-toggler {
+  color: var(--brand-font-color) !important;
+}
+.nav-link.active {
+  font-weight: bolder !important;
 }
