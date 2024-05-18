@@ -27,6 +27,9 @@
     width: 50%;
     object-fit: contain;
   }
+  .page-content {
+    text-align: center;
+  }
 }
 
 body {
