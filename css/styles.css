@@ -197,7 +197,14 @@ footer {
   padding: 10px;
   margin: 0 auto;
 }
-
+.github-link {
+  color: var(--brand-font-color);
+  text-decoration: none;
+}
+.github-link:hover {
+  color: var(--brand-font-color);
+  text-decoration: underline;
+}
 .launch-link:hover {
   color: var(--brand-font-color);
   text-decoration: none;
